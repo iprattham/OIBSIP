@@ -1,0 +1,79 @@
+/* Background pattern from Toptal Subtle Patterns */
+
+body {
+  background-image: url(topography.png);
+  color: #303841;
+  font-family: "Mukta", sans-serif;
+  margin: 30px 0;
+  padding: 20px 50px;
+}
+
+#title {
+  font-family: "Amatic SC", cursive;
+  font-size: 65px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+h2 {
+  font-size: 32px;
+  padding: 30px 0;
+}
+
+#image {
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#img-caption {
+  font-size: 14px;
+  font-style: italic;
+  text-align: right;
+  padding: 15px;
+
+  max-width: 100%;
+}
+
+section {
+  background: #f7f7f7;
+  line-height: 1.8;
+  padding: 25px;
+  margin: 25px 0;
+}
+
+#tribute-info {
+  font-size: 20px;
+  text-align: justify;
+}
+
+#inline-p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+a {
+  color: #303841;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 2;
+}
+
+a:hover {
+  color: #7aa5d2;
+}
+
+ul {
+  list-style-type: square;
+}
+
+footer {
+  color: #47555e;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+}
